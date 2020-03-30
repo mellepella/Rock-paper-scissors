@@ -1,0 +1,16 @@
+body, input {
+    font-family: 'Ubuntu', sans-serif;
+    color: #f0f0f0;
+}
+
+.medium-thick-text {
+    font-weight: 600;
+}
+
+.thin-text {
+    font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
+}

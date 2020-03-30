@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #2f669d;
+    --primary-color-darken: #295989;
+    --primary-color-darkest:  #234d76; 
+    --dark-blue: #0c1c29;
+    --darker-blue: #08131d;
+    --darkest-blue: #050b10; 
+    --light-color: #e8e8e8;
+    --light-purple: #492c49;
+    --dark-purple: #302543;
+
+    --padding-extra-small: 5px;
+    --padding-small: 10px;
+    --padding-medium: 15px;
+    --padding-large: 35px;
+
+    --border-width-small: 1px;
+    --border-radius-small: 4px;
+    --border-radius-medium: 7px;
+
+    --margin-small: 4px; 
+    --margin-medium: 15px;
+}

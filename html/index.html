@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../views/score-boards.css">
+    <link rel="stylesheet" href="../views/backgrounds.css">
+    <link rel="stylesheet" href="../views/variables.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../views/cards.css">
+    <link rel="stylesheet" href="../views/typography.css">
+    <link rel="stylesheet" href="../views/layout.css">
+    <script src="../javascript/alert.js"></script>
+    <script src="../javascript/clearInput.js"></script>
+    <script src="../javascript/authenticate.js"></script>
+    <script src="../javascript/computerChoice.js"></script>
+    <script src="../javascript/writeResults.js"></script>
+    <script src="../javascript/retrieveAnswer.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+</head>
+<body class="bg">
+    <div class="container">
+        <div class="score-board almost-vertical-center horizontal-center text-center">
+            <p class="score medium-thick-text" id="score">Make your move!</p>
+        </div>
+        <div class="card vertical-center horizontal-center text-center">
+            <label class="label medium-thick-text" for="text">Rock, paper or scissors?</label>
+            <input class="input text-center" id="text" type="text" placeholder="...">
+            <input class="submit" type="submit" onClick="authenticate()" value="Send">
+        </div>
+    </div>
+</body>
+</html>
